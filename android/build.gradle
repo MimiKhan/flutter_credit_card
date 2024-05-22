@@ -27,6 +27,9 @@ apply plugin: 'kotlin-android'
 android {
     compileSdk 31
 
+    // Add this line to specify the namespace
+    namespace 'com.simform.flutter_credit_card'
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
